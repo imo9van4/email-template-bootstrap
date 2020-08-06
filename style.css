@@ -1,0 +1,75 @@
+.left{
+    height: 100vh;
+    background-color: rgb(141, 31, 31);
+}
+
+.center{
+    height: 100vh;
+    background-color: rgb(173, 128, 69);
+}
+
+.right{
+    height: 100vh;
+    background-color: rgb(224, 200, 64);
+}
+
+li{
+    list-style: none;
+}
+
+.row{
+    padding: 20px 15px 20px 30px;
+}
+
+.form-group{
+    height: 30vh;
+}
+
+a{
+    color: gold;
+}
+
+a:visited{
+    color: gold;
+}
+
+.mail-1{
+    background-color: white;
+    height: 15vh;
+    border-radius: 15px;
+}
+
+.mail-2{
+    background-color:white;
+    height: 15vh;
+    border-radius: 15px;
+    
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.mail-3{
+    background-color: white;
+    height: 15vh;
+    border-radius: 15px;
+}
+
+span{
+    color: silver;
+    font-size: 14px;
+}
+
+.span2{
+    color: crimson;
+}
+
+.span3{
+    color:black;
+    font-weight: bold;
+}
+
+.tab{
+    padding-left: 100px;
+}
+
