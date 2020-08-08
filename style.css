@@ -1,16 +1,13 @@
 .left{
-    height: 100vh;
-    background-color: rgb(141, 31, 31);
+    background-color: white;
 }
 
 .center{
-    height: 100vh;
     background-color: white;
 }
 
 .right{
-    height: 100vh;
-    background: linear-gradient(120deg, crimson, tan, gold, goldenrod, rgb(141, 31, 31), rgb(173, 128, 69), black);
+    background: white;
 }
 
 li{
@@ -18,7 +15,7 @@ li{
 }
 
 .row{
-    padding: 30px 0px 30px 70px;
+    padding: 30px 15px 40px 50px;
 }
 
 .form-group{
@@ -48,11 +45,10 @@ a:visited{
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    min-height: auto;
 }
 
 .mail-3{
-    height: 15vh;
+    text-align: left;
     border-radius: 15px; 
 }
 
@@ -71,6 +67,10 @@ span{
 }
 
 .container-fluid{
-    background-color: black;
+    background-color: white;
+}
+
+h2{
+    color: red;
 }
 
