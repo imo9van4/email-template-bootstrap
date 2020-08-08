@@ -1,19 +1,15 @@
 .left{
     height: 100vh;
     background-color: rgb(141, 31, 31);
-   /* background: linear-gradient(50deg, crimson, tan, gold, goldenrod, rgb(141, 31, 31), rgb(173, 128, 69), black);*/
-  
 }
 
 .center{
     height: 100vh;
-    /*background-color: rgb(173, 128, 69);*/
     background-color: white;
 }
 
 .right{
     height: 100vh;
-    /*background-color: rgb(224, 200, 64);*/
     background: linear-gradient(120deg, crimson, tan, gold, goldenrod, rgb(141, 31, 31), rgb(173, 128, 69), black);
 }
 
@@ -33,33 +29,31 @@ a{
     color: gold;
 }
 
+li{
+    color: gold;
+}
+
 a:visited{
     color: gold;
 }
 
 .mail-1{
-    background-color: white;
-    height: 15vh;
     border-radius: 15px;
     text-align: left;
-    align-self: auto;
 }
 
 .mail-2{
-    background-color:white;
-    height: 15vh;
     border-radius: 15px;
     text-align: left;
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    min-height: auto;
 }
 
 .mail-3{
-    background-color: white;
     height: 15vh;
-    border-radius: 15px;
-    
+    border-radius: 15px; 
 }
 
 span{
@@ -69,7 +63,6 @@ span{
 
 .span2{
     color: black;
-    /*color: crimson;*/
 }
 
 .span3{
@@ -79,5 +72,5 @@ span{
 
 .container-fluid{
     background-color: black;
-    
 }
+
