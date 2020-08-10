@@ -1,13 +1,20 @@
 .left{
-    background-color: white;
+    height: 100vh;
+    background-color: rgb(141, 31, 31);
+   /* background: linear-gradient(50deg, crimson, tan, gold, goldenrod, rgb(141, 31, 31), rgb(173, 128, 69), black);*/
+  
 }
 
 .center{
+    height: 100vh;
+    /*background-color: rgb(173, 128, 69);*/
     background-color: white;
 }
 
 .right{
-    background: white;
+    height: 100vh;
+    /*background-color: rgb(224, 200, 64);*/
+    background: linear-gradient(120deg, crimson, tan, gold, goldenrod, rgb(141, 31, 31), rgb(173, 128, 69), black);
 }
 
 li{
@@ -15,7 +22,7 @@ li{
 }
 
 .row{
-    padding: 30px 15px 40px 50px;
+    padding: 30px 0px 30px 70px;
 }
 
 .form-group{
@@ -26,20 +33,21 @@ a{
     color: gold;
 }
 
-li{
-    color: gold;
-}
-
 a:visited{
     color: gold;
 }
 
 .mail-1{
+    background-color: white;
+    height: 15vh;
     border-radius: 15px;
     text-align: left;
+    align-self: auto;
 }
 
 .mail-2{
+    background-color:white;
+    height: 15vh;
     border-radius: 15px;
     text-align: left;
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
@@ -48,8 +56,10 @@ a:visited{
 }
 
 .mail-3{
-    text-align: left;
-    border-radius: 15px; 
+    background-color: white;
+    height: 15vh;
+    border-radius: 15px;
+    
 }
 
 span{
@@ -59,6 +69,7 @@ span{
 
 .span2{
     color: black;
+    /*color: crimson;*/
 }
 
 .span3{
@@ -67,10 +78,6 @@ span{
 }
 
 .container-fluid{
-    background-color: white;
+    background-color: black;
+    
 }
-
-h2{
-    color: red;
-}
-
